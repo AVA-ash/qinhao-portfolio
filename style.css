@@ -63,7 +63,10 @@ a{color:inherit;text-decoration:none}
 .spec li{display:flex;justify-content:space-between;gap:18px;padding:12px 0;border-bottom:1px solid #f1efec;
   font-size:13px;color:#33302c}
 .spec b{font-family:var(--mono);font-weight:400;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:#8a847c}
-.work .note{margin-top:20px;font-size:12.5px;line-height:2;color:var(--muted);max-width:32ch}
+.work .note{margin-top:26px;padding-top:20px;border-top:1px solid #f1efec;font-size:13.5px;line-height:2.1;
+  color:#4a4640;max-width:42ch}
+.note-label{display:block;margin-bottom:8px;font-family:var(--mono);font-size:9.5px;letter-spacing:.2em;
+  text-transform:uppercase;color:#a09a92}
 
 @media(max-width:860px){
   .work{grid-template-columns:1fr;gap:24px}
